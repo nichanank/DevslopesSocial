@@ -14,6 +14,11 @@
 		FFCD7D151DF48A570087156A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCD7D141DF48A570087156A /* Assets.xcassets */; };
 		FFCD7D181DF48A570087156A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCD7D161DF48A570087156A /* LaunchScreen.storyboard */; };
 		FFCD7D201DF48AD10087156A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFCD7D1F1DF48AD10087156A /* GoogleService-Info.plist */; };
+		FFCD7D251DF653340087156A /* CustomFancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D241DF653340087156A /* CustomFancyView.swift */; };
+		FFCD7D281DF653A20087156A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D271DF653A20087156A /* Constants.swift */; };
+		FFCD7D2A1DF654F60087156A /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D291DF654F60087156A /* RoundButton.swift */; };
+		FFCD7D2C1DF655FA0087156A /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D2B1DF655FA0087156A /* FancyField.swift */; };
+		FFCD7D2E1DF656CA0087156A /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D2D1DF656CA0087156A /* FancyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		FFCD7D171DF48A570087156A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFCD7D191DF48A570087156A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFCD7D1F1DF48AD10087156A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FFCD7D241DF653340087156A /* CustomFancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFancyView.swift; sourceTree = "<group>"; };
+		FFCD7D271DF653A20087156A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FFCD7D291DF654F60087156A /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		FFCD7D2B1DF655FA0087156A /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		FFCD7D2D1DF656CA0087156A /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,7 @@
 		FFCD7D0C1DF48A570087156A /* DevslopesSocial */ = {
 			isa = PBXGroup;
 			children = (
+				FFCD7D261DF653920087156A /* Util */,
 				FFCD7D231DF48D690087156A /* Model */,
 				FFCD7D221DF48D670087156A /* View */,
 				FFCD7D211DF48D650087156A /* Controller */,
@@ -104,6 +115,10 @@
 		FFCD7D221DF48D670087156A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FFCD7D241DF653340087156A /* CustomFancyView.swift */,
+				FFCD7D291DF654F60087156A /* RoundButton.swift */,
+				FFCD7D2B1DF655FA0087156A /* FancyField.swift */,
+				FFCD7D2D1DF656CA0087156A /* FancyButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -113,6 +128,14 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		FFCD7D261DF653920087156A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FFCD7D271DF653A20087156A /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCD7D2C1DF655FA0087156A /* FancyField.swift in Sources */,
+				FFCD7D251DF653340087156A /* CustomFancyView.swift in Sources */,
+				FFCD7D2A1DF654F60087156A /* RoundButton.swift in Sources */,
+				FFCD7D2E1DF656CA0087156A /* FancyButton.swift in Sources */,
 				FFCD7D101DF48A570087156A /* SignInVC.swift in Sources */,
 				FFCD7D0E1DF48A570087156A /* AppDelegate.swift in Sources */,
+				FFCD7D281DF653A20087156A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
