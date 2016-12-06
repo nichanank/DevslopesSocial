@@ -13,16 +13,29 @@ import Firebase
 
 class SignInVC: UIViewController {
 
+    
+    @IBOutlet weak var emailField: FancyField!
+    @IBOutlet weak var pwdField: FancyField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SignInVC.dismissKeyboard))
+        view.addGestureRecognizer(tap)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 
     @IBAction func fbBtnTapped(_ sender: Any) {
         
@@ -48,6 +61,25 @@ class SignInVC: UIViewController {
                 print("Successfully authenticated with Firebase")
             }
         })
+    }
+    
+    @IBAction func signInTapped(_ sender: Any) {
+        
+        if let email = emailField.text, let pwd = pwdField.text {
+            FIRAuth.auth()?.signIn(withEmail: email, password: pwd, completion: { (user, error) in
+                if error == nil {
+                    print("Email user authenticated with Firebase")
+                } else {
+                    FIRAuth.auth()?.createUser(withEmail: email, password: pwd, completion: { (user, error) in
+                        if error != nil {
+                            print("Unable to authenticate with Firebase using emil")
+                        } else {
+                            print("Successfully authenticated with Firebase")
+                        }
+                    })
+                }
+            })
+        }
     }
 }
 
