@@ -19,6 +19,7 @@
 		FFCD7D2A1DF654F60087156A /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D291DF654F60087156A /* RoundButton.swift */; };
 		FFCD7D2C1DF655FA0087156A /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D2B1DF655FA0087156A /* FancyField.swift */; };
 		FFCD7D2E1DF656CA0087156A /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D2D1DF656CA0087156A /* FancyButton.swift */; };
+		FFCD7D301DF7BB9E0087156A /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D2F1DF7BB9E0087156A /* FeedVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FFCD7D291DF654F60087156A /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		FFCD7D2B1DF655FA0087156A /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		FFCD7D2D1DF656CA0087156A /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		FFCD7D2F1DF7BB9E0087156A /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				FFCD7D0F1DF48A570087156A /* SignInVC.swift */,
+				FFCD7D2F1DF7BB9E0087156A /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFCD7D2C1DF655FA0087156A /* FancyField.swift in Sources */,
+				FFCD7D301DF7BB9E0087156A /* FeedVC.swift in Sources */,
 				FFCD7D251DF653340087156A /* CustomFancyView.swift in Sources */,
 				FFCD7D2A1DF654F60087156A /* RoundButton.swift in Sources */,
 				FFCD7D2E1DF656CA0087156A /* FancyButton.swift in Sources */,
