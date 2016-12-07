@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FeedVCViewController: UIViewController {
+class FeedVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

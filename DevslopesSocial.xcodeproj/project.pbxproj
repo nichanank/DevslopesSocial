@@ -20,6 +20,7 @@
 		FFCD7D2C1DF655FA0087156A /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D2B1DF655FA0087156A /* FancyField.swift */; };
 		FFCD7D2E1DF656CA0087156A /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D2D1DF656CA0087156A /* FancyButton.swift */; };
 		FFCD7D301DF7BB9E0087156A /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D2F1DF7BB9E0087156A /* FeedVC.swift */; };
+		FFCD7D321DF7C9C60087156A /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D311DF7C9C60087156A /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		FFCD7D2B1DF655FA0087156A /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		FFCD7D2D1DF656CA0087156A /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 		FFCD7D2F1DF7BB9E0087156A /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		FFCD7D311DF7C9C60087156A /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				FFCD7D291DF654F60087156A /* RoundButton.swift */,
 				FFCD7D2B1DF655FA0087156A /* FancyField.swift */,
 				FFCD7D2D1DF656CA0087156A /* FancyButton.swift */,
+				FFCD7D311DF7C9C60087156A /* CircleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCD7D321DF7C9C60087156A /* CircleView.swift in Sources */,
 				FFCD7D2C1DF655FA0087156A /* FancyField.swift in Sources */,
 				FFCD7D301DF7BB9E0087156A /* FeedVC.swift in Sources */,
 				FFCD7D251DF653340087156A /* CustomFancyView.swift in Sources */,
