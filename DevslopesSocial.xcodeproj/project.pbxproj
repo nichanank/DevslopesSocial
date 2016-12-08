@@ -23,6 +23,7 @@
 		FFCD7D321DF7C9C60087156A /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D311DF7C9C60087156A /* CircleView.swift */; };
 		FFCD7D341DF7D2010087156A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D331DF7D2010087156A /* PostCell.swift */; };
 		FFCD7D371DF923540087156A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D361DF923540087156A /* DataService.swift */; };
+		FFCD7D3A1DF957D60087156A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD7D391DF957D60087156A /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		FFCD7D331DF7D2010087156A /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		FFCD7D361DF923540087156A /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		FFCD7D381DF9567E0087156A /* DevslopesSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DevslopesSocial.entitlements; sourceTree = "<group>"; };
+		FFCD7D391DF957D60087156A /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		FFCD7D231DF48D690087156A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FFCD7D391DF957D60087156A /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				FFCD7D321DF7C9C60087156A /* CircleView.swift in Sources */,
 				FFCD7D2C1DF655FA0087156A /* FancyField.swift in Sources */,
 				FFCD7D301DF7BB9E0087156A /* FeedVC.swift in Sources */,
+				FFCD7D3A1DF957D60087156A /* Post.swift in Sources */,
 				FFCD7D251DF653340087156A /* CustomFancyView.swift in Sources */,
 				FFCD7D2A1DF654F60087156A /* RoundButton.swift in Sources */,
 				FFCD7D371DF923540087156A /* DataService.swift in Sources */,
