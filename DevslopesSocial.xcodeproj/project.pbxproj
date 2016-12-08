@@ -46,6 +46,7 @@
 		FFCD7D311DF7C9C60087156A /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		FFCD7D331DF7D2010087156A /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		FFCD7D361DF923540087156A /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		FFCD7D381DF9567E0087156A /* DevslopesSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DevslopesSocial.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 		FFCD7D0C1DF48A570087156A /* DevslopesSocial */ = {
 			isa = PBXGroup;
 			children = (
+				FFCD7D381DF9567E0087156A /* DevslopesSocial.entitlements */,
 				FFCD7D351DF923470087156A /* Services */,
 				FFCD7D261DF653920087156A /* Util */,
 				FFCD7D231DF48D690087156A /* Model */,
@@ -195,6 +197,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 6898B5MLJW;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -417,6 +424,7 @@
 			baseConfigurationReference = DC3B3C63268EB33571212AE3 /* Pods-DevslopesSocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DevslopesSocial/DevslopesSocial.entitlements;
 				DEVELOPMENT_TEAM = 6898B5MLJW;
 				INFOPLIST_FILE = DevslopesSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -431,6 +439,7 @@
 			baseConfigurationReference = FFA0CC008C303F66CBB59469 /* Pods-DevslopesSocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DevslopesSocial/DevslopesSocial.entitlements;
 				DEVELOPMENT_TEAM = 6898B5MLJW;
 				INFOPLIST_FILE = DevslopesSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
