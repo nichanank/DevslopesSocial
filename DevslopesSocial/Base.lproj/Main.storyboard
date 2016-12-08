@@ -164,6 +164,7 @@
                                         <state key="normal" image="sign-out"/>
                                         <connections>
                                             <action selector="signOutTapped:" destination="LHY-lb-9XY" eventType="touchUpInside" id="yvG-Vy-48W"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" identifier="goToSignIn" id="kY2-iR-Uxb"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -220,7 +221,7 @@
                                 <rect key="frame" x="0.0" y="163" width="375" height="504"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="325" id="d6X-oJ-AUX" customClass="PostCell" customModule="DevslopesSocial" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="325" id="d6X-oJ-AUX" customClass="PostCell" customModule="DevslopesSocial" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="325"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="d6X-oJ-AUX" id="vwe-O9-sVs">
@@ -340,29 +341,11 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="MLT-ll-sHb" id="rC9-dU-VI9"/>
-                        <segue destination="BYZ-38-t0r" kind="show" id="Pw8-8k-yCR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YJm-5g-Gqv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="893.60000000000002" y="37.331334332833585"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="jtw-D8-JUX">
-            <objects>
-                <viewController id="GSV-Ha-Da6" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lgz-7d-YTJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="TVG-j0-e27"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7ga-ve-j6B">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5uJ-Wa-xde" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
         </scene>
     </scenes>
     <resources>
